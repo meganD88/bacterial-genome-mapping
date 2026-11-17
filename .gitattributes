@@ -1,0 +1,2 @@
+SRR41602795_2.fastq filter=lfs diff=lfs merge=lfs -text
+SRR41602795_1.fastq filter=lfs diff=lfs merge=lfs -text

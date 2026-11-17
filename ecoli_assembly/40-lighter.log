@@ -1,0 +1,13 @@
+[2026-11-09 18:28:31] =============Start====================
+[2026-11-09 18:28:31] Scanning the input files to infer alpha(sampling rate)
+[2026-11-09 18:28:38] Average coverage is 49.196 and alpha is 0.142
+[2026-11-09 18:28:45] Bad quality threshold is "8"
+[2026-11-09 18:28:54] Finish sampling kmers
+[2026-11-09 18:28:54] Bloom filter A's false positive rate: 0.006993
+[2026-11-09 18:29:03] Finish storing trusted kmers
+[2026-11-09 18:29:31] Finish error correction
+Processed 890776 reads:
+	660161 are error-free
+	Corrected 381239 bases(1.653141 corrections for reads with errors)
+	Trimmed 0 reads with average trimmed bases 0.000000
+	Discard 0 reads

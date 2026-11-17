@@ -1,0 +1,40 @@
+Command line: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades.py	--pe1-1	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_1.fastq.gz	--pe1-2	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_2.fastq.gz	--s2	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.extendedFrags.fastq.gz	--only-assembler	--threads	4	--memory	7	-o	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly	--tmp-dir	/tmp	-k	31,55,79,103,127	
+
+System information:
+  SPAdes version: 4.3.0
+  Python version: 3.11.0
+  OS: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+
+Output dir: /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_1.fastq.gz']
+      right reads: ['/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+    Library number: 2, library type: single
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.extendedFrags.fastq.gz']
+      merged reads: not specified
+Assembly parameters:
+  k: [31, 55, 79, 103, 127]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /tmp
+  Threads: 4
+  Memory limit (in Gb): 7
+

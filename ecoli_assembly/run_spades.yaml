@@ -1,0 +1,135 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_RXGO7ILQV4BW1CCL6FBRED56T57XRUPP
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_V9SA1LKKARU3L70RSMJIFGYE1VPT74AM
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K31
+  args:
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K31/configs/config.info
+  config_dir: K31
+  del_after: []
+  job_uuid: SPAdes_K31_IJYDKT83H8SJLWKIRZZDSS2KK65IKC5M
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades-core
+  short_name: k31
+- STAGE: K55
+  args:
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  job_uuid: SPAdes_K55_IA9OAK25MY3W7QRPYAQ19OGXKSBMEDDS
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades-core
+  short_name: k55
+- STAGE: K79
+  args:
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K79/configs/config.info
+  config_dir: K79
+  del_after: []
+  job_uuid: SPAdes_K79_NL5Y5ACMSJPX0FOJKOLB6IYCBUOBNRNI
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades-core
+  short_name: k79
+- STAGE: K103
+  args:
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K103/configs/config.info
+  config_dir: K103
+  del_after: []
+  job_uuid: SPAdes_K103_BRZ6QCA7QRITZIV2I9DOH8NCHOCG6DQQ
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades-core
+  short_name: k103
+- STAGE: K127
+  args:
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/configs/config.info
+  config_dir: K127
+  del_after: []
+  job_uuid: SPAdes_K127_V2JQLKSQEQHI7F8V7IY08HVYJ72145MY
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/spades-core
+  short_name: k127
+- STAGE: Copy files
+  args:
+  - /home/summe/miniforge3/envs/bacterial_genome_mapping/share/spades/spades_pipeline/supplemetary/copy_files.py
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/before_rr.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/before_rr.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/assembly_graph_after_simplification.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/assembly_graph_after_simplification.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/final_contigs.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/contigs.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/first_pe_contigs.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/first_pe_contigs.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/strain_graph.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/strain_graph.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/scaffolds.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/scaffolds.fasta
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/scaffolds.paths
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/scaffolds.paths
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/assembly_graph_with_scaffolds.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/assembly_graph_with_scaffolds.gfa
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/assembly_graph.fastg
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/assembly_graph.fastg
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/K127/final_contigs.paths
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - ../../../../../../../../tmp/spades_c_2vs81g
+  job_uuid: SPAdes_Copy_files_QQ4S2J4VFCZ2Z6GLYNQ1PJNCCGD7R8UR
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_0H6JJWOJX474F9P8XAGD5JT5RXT0KKVX
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /home/summe/miniforge3/envs/bacterial_genome_mapping/share/spades/spades_pipeline/supplemetary/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/scaffolds.fasta
+  - --misc_dir
+  - /mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_9EJ5PLXY7ET3PK1JIRY30H55HGAME0E8
+  mpi_support: false
+  output_files: []
+  path: /home/summe/miniforge3/envs/bacterial_genome_mapping/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_1LBHI84QC35VF9NHZCIDWBS9ACO983JP
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

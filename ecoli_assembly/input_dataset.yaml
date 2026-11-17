@@ -1,0 +1,11 @@
+- "left reads":
+  - "/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.notCombined_2.fastq.gz"
+  "type": "paired-end"
+- "number": !!int "2"
+  "single reads":
+  - "/mnt/c/Users/summe/OneDrive/Desktop/bio_project/ecoli_assembly/flash.extendedFrags.fastq.gz"
+  "type": "single"

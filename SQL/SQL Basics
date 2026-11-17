@@ -1,0 +1,21 @@
+#Field = column
+#Record = row 
+
+**COUNT() counts the number of records within a field**
+SELECT COUNT(birthdate) AS count_birthdates
+FROM people;
+
+#selects counts of birthdates from people table and saves as a result called count_birthdates 
+
+**Count() multiple fields**
+SELECT COUNT(name) AS count_names, COUNT(birthdate) AS count_birthdates
+FROM people; 
+
+COUNT(field_name) counts values in a field
+COUNT(*) counts records in a table 
+SELECT COUNT(*) AS total_records
+FROM people; 
+
+**Count with distinct**
+SELECT COUNT(DISTINCT birthdate) AS count_distinct_birthdates
+FROM people; 
