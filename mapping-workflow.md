@@ -17,7 +17,7 @@ conda install -y -c bioconda fastqc shovill minimap2 samtools snippy bcftools ab
 #Creating fastq files  
 fasterq-dump --split-files SRR41602795
 
-# Run QC on raw reads
+#Run QC on raw reads
 fastqc SRR41602795_1.fastq SRR41602795_2.fastq
 
 #Assembling genome using shovill  
