@@ -1,6 +1,0 @@
-DateTime	2026-11-09T19:00:22
-ReadFiles	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/SRR41602795_1.fastq /mnt/c/Users/summe/OneDrive/Desktop/bio_project/SRR41602795_2.fastq
-Reference	/mnt/c/Users/summe/OneDrive/Desktop/bio_project/GCF_000005845.2_ASM584v2_genomic.fna
-ReferenceSize	4719085
-Software	snippy 3.1
-VariantTotal	0
